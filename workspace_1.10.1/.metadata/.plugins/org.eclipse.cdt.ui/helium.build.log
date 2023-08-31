@@ -1,0 +1,48 @@
+14:54:19 **** Build of configuration Debug for project helium ****
+make -j8 all 
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/trace/adv_trace/stm32_adv_trace.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_adv_trace.d" -MT"Utilities/stm32_adv_trace.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_adv_trace.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/lpm/tiny_lpm/stm32_lpm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_lpm.d" -MT"Utilities/stm32_lpm.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_lpm.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_mem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_mem.d" -MT"Utilities/stm32_mem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_mem.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/sequencer/stm32_seq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_seq.d" -MT"Utilities/stm32_seq.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_seq.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_systime.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_systime.d" -MT"Utilities/stm32_systime.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_systime.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/timer/stm32_timer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_timer.d" -MT"Utilities/stm32_timer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_timer.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_tiny_sscanf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_tiny_sscanf.d" -MT"Utilities/stm32_tiny_sscanf.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_tiny_sscanf.o"
+arm-none-eabi-gcc "C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_tiny_vsnprintf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WL55xx -c -I../../Core/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc -I../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Utilities/stm32_tiny_vsnprintf.d" -MT"Utilities/stm32_tiny_vsnprintf.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/stm32_tiny_vsnprintf.o"
+In file included from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_mem.h:29,
+                 from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/misc/stm32_mem.c:21:
+../../Core/Inc/utilities_conf.h:33:10: fatal error: stm32_mem.h: No such file or directory
+   33 | #include "stm32_mem.h"
+      |          ^~~~~~~~~~~~~
+In file included from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/trace/adv_trace/stm32_adv_trace.h:29,
+                 from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/trace/adv_trace/stm32_adv_trace.c:20:
+../../Core/Inc/utilities_conf.h:33:10: fatal error: stm32_mem.h: No such file or directory
+   33 | #include "stm32_mem.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+In file included from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/sequencer/stm32_seq.c:21:
+../../Core/Inc/utilities_conf.h:33:10: fatal error: stm32_mem.h: No such file or directory
+   33 | #include "stm32_mem.h"
+      |          ^~~~~~~~~~~~~
+In file included from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/lpm/tiny_lpm/stm32_lpm.c:21:
+../../Core/Inc/utilities_conf.h:33:10: fatal error: stm32_mem.h: No such file or directory
+   33 | #include "stm32_mem.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+In file included from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/timer/stm32_timer.h:59,
+                 from C:/Users/MADOR - T/Desktop/helium/helium/helium/Utilities/timer/stm32_timer.c:42:
+../../Core/Inc/utilities_conf.h:33:10: fatal error: stm32_mem.h: No such file or directory
+   33 | #include "stm32_mem.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Utilities/subdir.mk:40: Utilities/stm32_adv_trace.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Utilities/subdir.mk:44: Utilities/stm32_mem.o] Error 1
+make: *** [Utilities/subdir.mk:50: Utilities/stm32_timer.o] Error 1
+make: *** [Utilities/subdir.mk:46: Utilities/stm32_seq.o] Error 1
+make: *** [Utilities/subdir.mk:42: Utilities/stm32_lpm.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:54:20 Build Failed. 11 errors, 0 warnings. (took 1s.283ms)
+

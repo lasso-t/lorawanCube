@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="917500000"/>
+			<item value="fre"/>
+			<item value="freq"/>
+			<item value="LmHandlerTxParams_t"/>
+			<item value="DR"/>
+			<item value="app_log"/>
+			<item value="main"/>
+			<item value="power"/>
+			<item value="bandwith"/>
+			<item value="datarate"/>
+			<item value="rigion"/>
+			<item value="rate"/>
+			<item value="Printf"/>
+			<item value="9600"/>
+			<item value="APP_PRINTF"/>
+			<item value="APP_LOG"/>
+			<item value="AS923"/>
+			<item value="917300000"/>
+			<item value="sleep"/>
+			<item value="delay"/>
+			<item value="LORAMAC_REGION"/>
+			<item value="ACTIVE_REGION"/>
+			<item value="STATIC_DEVICE_EUI"/>
+			<item value="seidentityh"/>
+			<item value="9232000"/>
+		</list>
+	</section>
+</section>

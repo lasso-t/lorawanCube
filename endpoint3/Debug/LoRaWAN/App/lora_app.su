@@ -1,0 +1,11 @@
+../LoRaWAN/App/lora_app.c:158:6:LoRaWAN_Init	8	static
+../LoRaWAN/App/lora_app.c:185:13:OnRxData	16	static
+../LoRaWAN/App/lora_app.c:195:13:OnTxData	16	static
+../LoRaWAN/App/lora_app.c:201:13:OnJoinRequest	16	static
+../LoRaWAN/App/lora_app.c:207:13:OnBeaconStatusChange	16	static
+../LoRaWAN/App/lora_app.c:213:13:OnClassChange	16	static
+../LoRaWAN/App/lora_app.c:219:13:OnMacProcessNotify	4	static
+../LoRaWAN/App/lora_app.c:226:13:OnTxPeriodicityChanged	16	static
+../LoRaWAN/App/lora_app.c:233:13:OnTxFrameCtrlChanged	16	static
+../LoRaWAN/App/lora_app.c:240:13:OnPingSlotPeriodicityChanged	16	static
+../LoRaWAN/App/lora_app.c:247:13:OnSystemReset	4	static
